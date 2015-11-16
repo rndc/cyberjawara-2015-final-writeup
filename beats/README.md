@@ -121,7 +121,7 @@ Python 2.7.10 (default, Sep  8 2015, 17:20:17)
 [GCC 5.1.1 20150618 (Red Hat 5.1.1-4)] on linux2
 Type "help", "copyright", "credits" or "license" for more information.
 >>> print ''.join([chr(~ord(c) & 0xff) for c in "\xbc\xb5\xcd\xcf\xce\xca\x84\xbb\x8d\xa0\xbb\x8d\x9a\xa0\x88\x9e\x8c\xa0\x97\x9a\x8d\x9a\x82\xf5"])
-CJ2015{Dr_Dre_was_here}</nowiki>
+CJ2015{Dr_Dre_was_here}
 ```
 
 * Bisa terlihat bahwa flag yang benar adalah __CJ2015{Dr_Dre_was_here}__.
